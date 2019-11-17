@@ -1,0 +1,16 @@
+@media print {
+* {
+    visibility: hidden !important;
+  }
+
+  .print, .user_title_total_hours, .print * {
+    visibility: visible !important;
+  }
+
+  .print {
+    position: absolute;
+    left: -5px;
+    top: -2px;
+    min-width: 95%;
+  }
+}
